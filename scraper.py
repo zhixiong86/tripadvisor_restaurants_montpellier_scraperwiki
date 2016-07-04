@@ -17,11 +17,12 @@ from pyquery import PyQuery as pq
 
 #area = "187149"	#Languedoc-Roussillon (7613)
 
-area = "2462549"	#Aude (1107)
+#area = "2462549"	#Aude (1107)
 #area = "2462552"	#Lozère (199/204)
 #area = "1774988"	#Pyrénées-Orientales (1429)
 #area = "2431928"	#Hérault (3028)
 #area = "2431943"	#Gard (1509)
+area = "294265" #Singapore
 
 scrape_url = "http://www.tripadvisor.fr/RestaurantSearch?geo=" + area + "&o=a%s&sortOrder=popularity"
 
